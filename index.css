@@ -150,12 +150,12 @@ background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%
 
 
 
-.Skill , .experience , .certificates , .contact-me , .education , .content , .projects , footer{
+.Skill , .experience , .certificates , .contact-me , .education , .content , footer , .projects{
 background: rgba( 255, 255, 255, 0.11);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 border: 1px solid rgba(255, 255, 255, 0.3);
-	  padding:10px 40px;
+  padding:10px 40px;
 }
