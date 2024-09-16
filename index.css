@@ -150,7 +150,7 @@ background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%
 
 
 
-.Skill , .about-me , .experience , .certificates , .contact-me , .education , .content , footer{
+.Skill , .experience , .certificates , .contact-me , .education , .content , .projects , footer{
 background: rgba( 255, 255, 255, 0.11);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
