@@ -1,0 +1,160 @@
+/* global google icons */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+.about-me{
+  
+}
+.para{
+	font-weight:500;
+}
+
+/* From Uiverse.io by Codecite */ 
+.anchor {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 2px solid #ed553b;
+  padding: 14px 40px 13px;
+  overflow: hidden;
+  position: relative;
+}
+
+.anchor:hover {
+  color: #4e484a;
+}
+
+.button a::before {
+  position: absolute;
+  content: "";
+  z-index: 0;
+  background-color: #ed553b;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  height: 111%;
+  transition: all .3s ease;
+}
+
+.button a:hover::before {
+  height: 11%;
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+  transition: all .3s ease;
+}
+
+
+
+.typed-div{
+  margin-left:25%;
+  margin-right:auto;
+}
+.typed {
+    font-family: 'Poppins', 'Montserrat', sans-serif; 
+    font-weight: 900;
+    color: blue;
+    font-size: 24px; 
+    letter-spacing: 1px; 
+    text-transform: uppercase;
+}
+
+
+.content{
+}
+.img-div{
+    height:80%;
+}
+
+.pic {
+  width: 70%;
+    border-radius:49% 51% 55% 45% / 30% 50% 50% 70% ;
+}
+
+.pic:hover {
+  animation: hoverScale 1s forwards; 
+}
+
+@keyframes hoverScale {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+  }
+}
+
+
+.card-img {
+      object-fit: cover;
+      height: 200px;
+    }
+.card-body h4 {
+      margin: 0; 
+    }
+.card:hover{
+		box-shadow: 10px 10px 35px -11px rgba(0,0,0,0.78);
+-webkit-box-shadow: 10px 10px 35px -11px rgba(0,0,0,0.78);
+-moz-box-shadow: 10px 10px 35px -11px rgba(0,0,0,0.78);
+animation: hoverScale 1s forwards;
+	}
+
+@media only screen and (min-width: 992px) {
+  .img-div{
+    height:70%;
+  }
+  
+}
+/* Gradient Background for the webpage */
+body {
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Optional: Gradient for specific sections (if needed) */
+.content {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+/* Gradient Background for the Bootstrap container */
+.container footer{
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  padding: 20px;
+  border-radius: 15px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+  
+}
+.content{
+  background: rgb(96,240,231);
+background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%, rgba(245,139,226,1) 100%);
+}
+/* New Background Color for the portfolio */
+body {
+  background-color: #f0f4f8; /* Soft light blue-gray */
+  color: #333333; /* Dark gray for text */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
