@@ -7,8 +7,6 @@
   'opsz' 24
 }
 
-
-
 .about-me{
   
 }
@@ -16,7 +14,6 @@
 	font-weight:500;
 }
 
-/* From Uiverse.io by Codecite */ 
 .anchor {
   text-decoration: none;
   color: #fff;
@@ -121,30 +118,19 @@ animation: hoverScale 1s forwards;
   }
   
 }
-/* Gradient Background for the webpage */
-body {
-  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
-  min-height: 100vh;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-/* Optional: Gradient for specific sections (if needed) */
 .content {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 20px;
   border-radius: 15px;
 }
-
-
-/* Gradient Background for the Bootstrap container */
-.container footer{
+.container{
   background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
   padding: 20px;
   border-radius: 15px; /* Optional: Rounded corners */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
   
 }
+
 .content{
   background: rgb(96,240,231);
 background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%, rgba(245,139,226,1) 100%);
