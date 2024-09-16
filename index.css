@@ -16,45 +16,54 @@
 	font-weight:500;
 }
 
-/* From Uiverse.io by Codecite */ 
-.anchor {
-  text-decoration: none;
-  color: #fff;
+
+/* From Uiverse.io by yaasiinaxmed */ 
+.button {
+  --color: #0077ff;
+  font-family: inherit;
   display: inline-block;
-  font-family: sans-serif;
-  font-weight: 600;
-  border-radius: 50px;
-  border: 2px solid #ed553b;
-  padding: 14px 40px 13px;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
   overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
   position: relative;
 }
 
-.anchor:hover {
-  color: #4e484a;
-}
-
-.button a::before {
+.button::before {
   position: absolute;
   content: "";
-  z-index: 0;
-  background-color: #ed553b;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  height: 111%;
-  transition: all .3s ease;
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
 }
 
-.button a:hover::before {
-  height: 11%;
+.button:hover {
+  color: white;
 }
 
-.button span {
-  position: relative;
-  z-index: 2;
-  transition: all .3s ease;
+.button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
 }
+
+.button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+
+
+
 
 
 
@@ -122,32 +131,30 @@ animation: hoverScale 1s forwards;
   
 }
 
-/* Optional: Gradient for specific sections (if needed) */
 .content {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 20px;
   border-radius: 15px;
 }
 
-
-/* Gradient Background for the Bootstrap container */
-.container footer{
-  background: linear-gradient(120deg, #74ebd5 0%, #9face6 100%);
-  padding: 20px;
-  border-radius: 15px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
-  
-}
 .content{
   background: rgb(96,240,231);
 background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%, rgba(245,139,226,1) 100%);
 }
 /* New Background Color for the portfolio */
-body {
-  background-color: #f0f4f8; /* Soft light blue-gray */
-  color: #333333; /* Dark gray for text */
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
+body{
+  background: rgb(96,240,231);
+background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%, rgba(245,139,226,1) 100%);
+}
+
+
+
+
+.Skill , .about-me , .experience , .certificates , .contact-me , .education , .content , footer{
+background: rgba( 255, 255, 255, 0.11);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
