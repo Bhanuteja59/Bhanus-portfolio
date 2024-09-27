@@ -34,6 +34,8 @@
   border: 2px solid var(--color);
   border-radius: 6px;
   position: relative;
+  margin-left:25%;
+  margin-right:auto;
 }
 
 .button::before {
@@ -143,8 +145,8 @@ background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%
 }
 /* New Background Color for the portfolio */
 body{
-  background: rgb(96,240,231);
-background: linear-gradient(90deg, rgba(96,240,231,1) 0%, rgba(186,84,217,1) 61%, rgba(245,139,226,1) 100%);
+background: rgb(96,240,231);
+background: radial-gradient(circle, rgba(66,195,255,1) 0%, rgba(115,169,255,1) 40%, rgba(186,84,217,1) 70%, rgba(245,139,226,1) 100%);
 }
 
 
@@ -158,4 +160,8 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 border: 1px solid rgba(255, 255, 255, 0.3);
   padding:10px 40px;
+}
+
+.carousel-item img{
+  height:500px;
 }
